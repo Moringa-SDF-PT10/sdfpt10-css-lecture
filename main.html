@@ -25,7 +25,7 @@
 
         <h2 id="expect-header">What to Expect?</h2>
         <span>This course will run for a duration of 6 months and you will learn the following:</span>
-        
+
         <ol type="b">
             <li>Introduction to Software Development processes</li>
             <li>HTML</li>
@@ -37,7 +37,7 @@
         <div id="outcomes-section">
             <h2>Course Outcomes</h2>
             <p id="course-outcomes">By the end of this course, you will be able to:</p>
-    
+
             <ul>
                 <li>Create, test and release complex web applications using JavaScript</li>
                 <li>Communicate technical concepts to a non-technical audience</li>
@@ -48,12 +48,12 @@
         <h2>Course Schedule</h2>
         <p>We usually have one intake per quarter. Check out our dates below</p>
 
-        <table>
+        <table id="main-table">
             <thead>
                 <tr>
                     <th>#/Date</th>
                     <th>Q1</th>
-                    <th>Q2</th>
+                    <th rowspan="2">Q2</th>
                     <th>Q3</th>
                     <th>Q4</th>
                 </tr>
@@ -91,15 +91,25 @@
         <div class="footer">
             <p> divs are used as general containers for elements, can be used as a footer, nav, text etc. </p>
         </div>
+        <table id="data-table" style="display: none;">
+          <thead>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Age</th>
+            <th>Referrer</th>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
 
         <footer>
             <p>footer is a semantic tag representing the actual footer in the document</p>
         </footer>
+        <!-- TODO 8: Add all your changes to a GitHub repository -->
 
-        <!-- TODO 8: Add all your changes to a GitHub repository --> 
-
-        <!-- Bonus: Add a top menu and on clicking any item navigate to the correct heading. --> 
+        <!-- Bonus: Add a top menu and on clicking any item navigate to the correct heading. -->
 
     </body>
-
+    <script src="javascript.js"></script>
 </html>
